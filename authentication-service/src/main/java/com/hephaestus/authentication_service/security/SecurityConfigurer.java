@@ -31,7 +31,7 @@ public class SecurityConfigurer  {
 
     @Autowired
     private JwtUtil jwtUtil;
-    
+
     @Bean
     public DataSource dataSource() {
         return new EmbeddedDatabaseBuilder()

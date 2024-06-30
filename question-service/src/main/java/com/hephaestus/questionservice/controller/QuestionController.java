@@ -24,7 +24,6 @@ public class QuestionController {
     @Autowired
     Environment environment;
 
-//    private static final Logger logger = (Logger) LoggerFactory.getLogger(QuestionController.class);
 
     @GetMapping("allQuestion")
     public ResponseEntity<List<Question>> getAllQuestion(){
